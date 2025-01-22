@@ -54,6 +54,10 @@ p {
     margin-bottom: 90px;
 }
 
+.white{
+    color: #FFFFFF;
+}
+
 /* nav style ----------------- */
 .nav-title {
     font-size: 2rem;
@@ -188,6 +192,12 @@ hr{
     gap: 28px;
 }
 
+.card-btn-3{
+    color: #8700FF;
+}
+.card-btn-2{
+    color: #F0AA00;
+}
 .card-2 {
     background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
@@ -196,7 +206,30 @@ hr{
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
-.card-container
+.circle{
+    background: orange;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+
+.circle-container{
+    padding: 60px 0px 60px 0px;
+    gap: 15px;
+}
+
+.left-arrow{
+    rotate: -90deg;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.right-arrow{
+    rotate: 90deg;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
 /* stories style ---------------------------- */
 
 
@@ -373,7 +406,8 @@ footer {
     .story-card-1,
     .nav-title,
     ul>li,
-    .nav-btn {
+    .nav-btn,
+    .circle-container {
         display: none;
     }
 
