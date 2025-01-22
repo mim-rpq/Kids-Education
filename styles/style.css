@@ -354,6 +354,15 @@ hr{
     display: none;
 }
 
+.mar{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(60, 216, 232);
+}
+.marq{
+    margin-top: 30px;
+}
+
 /* footer style -------------- */
 footer {
     background: #75919d;
