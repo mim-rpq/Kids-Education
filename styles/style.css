@@ -1,7 +1,7 @@
 /* shared style ====== */
 
 
-*{
+* {
     font-family: "Quicksand", serif;
     margin: 0;
     padding: 0;
@@ -49,7 +49,8 @@ p {
     font-size: 2.87rem;
     font-weight: 700;
     line-height: 57.5px;
-    margin-top: 60px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 /* nav style ----------------- */
@@ -71,19 +72,20 @@ nav>ul>li {
     font-weight: 700;
     line-height: 30px;
 }
-.home{
+
+.home {
     color: #FEA301;
 }
 
-.about{
+.about {
     color: #01ACFD;
 }
 
-.facilities{
+.facilities {
     color: #05D4DF;
 }
 
-.admission{
+.admission {
     color: #5D58EF;
 }
 
@@ -98,8 +100,47 @@ nav>ul>li {
     color: white;
 }
 
-.bar .fa-bars{
+.bar .fa-bars {
     font-size: 2rem;
+}
+
+
+/* banner style --------------------- */
+
+.banner-container{
+    gap: 50px;
+    margin-top: 35px;
+}
+.banner-title {
+    font-weight: 700;
+    line-height: 61px;
+    font-size: 3.5rem;
+}
+
+.empowering {
+    color: #FEA301;
+}
+
+.vision {
+    color: #01ACFD;
+}
+
+.banner-description {
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    padding: 8px 30px;
+    background: #111111;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    color: #FFFFFF;
 }
 
 /* standard card style  */
@@ -178,7 +219,6 @@ nav>ul>li {
 }
 
 .stories {
-    padding-top: 80px;
     display: flex;
     gap: 20px;
 }
@@ -273,20 +313,21 @@ nav>ul>li {
 
 
 
+
 @media screen and (max-width:576px) {
 
 
     .story-card-1,
     .nav-title,
-    ul > li,
-    .nav-btn{
+    ul>li,
+    .nav-btn {
         display: none;
     }
 
 
 
     .stories,
-    .stories-container {
+    .stories-container{
         width: 100%;
     }
 
@@ -300,10 +341,13 @@ nav>ul>li {
 
     .standard-card,
     .story-card-4,
-    nav{
+    nav ,
+    .banner-container{
         margin: 10px;
     }
-
+    /* .banner-img{
+        margin: 20px;
+    } */
     .card-img {
         width: 200px;
         margin: 0 auto;
@@ -320,11 +364,18 @@ nav>ul>li {
     }
 
     .mobile-card,
-    .bar{
+    .bar {
         display: block;
     }
 
-    .card-container {
+    .card-container{
         flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-img img{
+        width: 100%;
     }
 }
