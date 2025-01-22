@@ -474,4 +474,11 @@ footer {
     .banner-img img {
         width: 100%;
     }
+    .banner-content{
+        text-align: center;
+    }
+    .section-title{
+        margin: 20px;
+        margin-top: 80px;
+    }
 }
