@@ -255,6 +255,8 @@ hr{
     ;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-bottom: 80px;
 }
 
 .stories {
